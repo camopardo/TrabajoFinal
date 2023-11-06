@@ -7,4 +7,32 @@
 
 footer {
     background-color: #19647E;
+    padding: 10px;
+    height: 91px;
+    width: 1280px;
+    box-sizing: content-box;
+}
+
+.footer-link { 
+    display: flex;
+    box-sizing: border-box;
+}
+
+.link { 
+    display: flex;
+    width: 300px;
+}
+
+#wpp-insta {
+    display: flex;
+    margin: 10px;
+}
+
+#ubicacion-elment {
+    display: flex;
+    margin: 10px;
+}
+
+#ubicacion {
+    color: white
 }
