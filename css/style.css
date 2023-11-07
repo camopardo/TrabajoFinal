@@ -52,8 +52,8 @@
     color: #fff;
     padding: 11px 21px;
     background-color: #19647E;
-    border: none;
     border-radius: 44px;
+    border: 2px solid #19647E;
     cursor: pointer;
 }
 
@@ -63,12 +63,12 @@
     color:#19647E;
     padding: 11px 21px;
     background-color: #fff;
-    border-color: #19647E;
+    border: 2px solid #19647E;
     border-radius: 44px;
     cursor: pointer;
 }
 
-/*BODY INICIO*/
+/*INICIO*/
 
 .fondo {
     background-color: #fff;
@@ -124,7 +124,34 @@
 }
 
 
+/*ACTIVIDADES*/
+
 /*FOOTER*/
+
+.actividades {
+    width: 333px;
+    height: 385px;
+    flex-shrink: 0;
+    margin: 100px;
+    border-radius: 14px;
+    display: inline-block;
+}
+
+.actividades .rsrbtn button {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #fff;
+    padding: 11px 21px;
+    background-color: #19647E;
+    border: none;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: all 0.10s;
+}
+
+.actividades:hover {
+    transform: scale(1.1);
+}
 
 footer {
     background-color: #19647E;
