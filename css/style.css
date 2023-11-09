@@ -126,6 +126,41 @@
 
 /*ACTIVIDADES*/
 
+
+
+
+
+
+
+
+
+/*CONTACTO*/
+
+.contacto-page {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 750px;
+    width: 1000px;
+}
+
+.form {
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+
 /*FOOTER*/
 
 .actividades {
