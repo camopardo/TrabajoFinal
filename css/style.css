@@ -157,7 +157,7 @@
     height: 210px;
     border-radius: 11px;
     background: #FFF;
-    display: block;
+    display: flex;
     text-align: left;
 }
 
@@ -208,11 +208,17 @@
 
 .actividades {
     width: 333px;
-    height: 385px;
+    height: 446px;
     flex-shrink: 0;
     margin: 100px;
     border-radius: 14px;
     display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 19px;
+    display: flex;
+
 }
 
 .actividades .rsrbtn button {
@@ -227,9 +233,10 @@
     background: #19647E;
     border: none;
     color: #FFF;
+    cursor: pointer;
 }
 
-.actividades:hover {
+.actividades .rsrbtn button:hover {
     transform: scale(1.1);
 }
 
@@ -278,11 +285,88 @@
 }
 
 .form h1 {
-    font-size: 32px;
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
     font-weight: 400;
-    margin-bottom: 25px;
+    line-height: normal;
 }
 
+.form p {
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+label {
+    font-size: 15px;
+    color: #19647E;
+    margin-bottom: 16px;
+}
+
+.box {
+    width: 645px;
+    height: 40px;
+    border: 0;
+    background-color: #f1eeee;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.box:focus {
+    border-color: #19647E;
+    box-shadow: 0 0 0 0.1rem #19647E;
+}
+
+.box-mensaje {
+    width: 645px;
+    height: 149px;
+    flex-shrink: 0;
+    padding: 15px;
+    border: 0;
+    border-radius: 14px;
+    background-color: #f1eeee;
+    outline: none;
+}
+
+.box-mensaje:focus {
+    border-color: #19647E;
+    box-shadow: 0 0 0 0.1rem #19647E;
+}
+
+.box-asunto {
+    width: 645px;
+    height: 60px;
+    border: 0;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 40px;
+    margin-bottom: 25px;
+    color: black;
+    border-radius: 14px;
+    border: 2px solid #19647E;
+}
+
+.box-bottom {
+    display: flex;
+    width: 136px;
+    padding: 12px 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 44px;
+    background: #19647E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 /*FOOTER*/
 footer {
