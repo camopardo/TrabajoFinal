@@ -71,7 +71,7 @@
 /*INICIO*/
 
 .fondo {
-    background-image: url(/imagenes/puertomadero.png);
+    background-image: url(../imagenes/puertomadero.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -165,21 +165,28 @@
 .personas {
     display: flex;
     gap: 37px;
+    align-items: center;
+    margin-bottom: 2px;
 }
 
 .hora {
     display: flex;
     gap: 37px;
+    align-items: center;
+    margin-bottom: 2px;
 }
 
 .idioma {
     display: flex;
     gap: 37px;
+    align-items: center;
+    margin-bottom: 2px;
 }
 
 .info-gratis {
     gap: 100px;
     display: block;
+    margin-left: 20px;
 }
 
 .divisor-infortour {
@@ -188,6 +195,10 @@
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+}
+
+.texto-gratis {
+    color: #19647E;
 }
 
 
@@ -255,7 +266,7 @@
 }
 
 .caja-tango {
-    background-image: url(/imagenes/tango.png);
+    background-image: url(../imagenes/tango.png);
     border-radius: 14px;
     width: 333px;
     height: 385px;
@@ -263,7 +274,7 @@
 }
 
 .caja-santelmo {
-    background-image: url(/imagenes/santelmo.png);
+    background-image: url(../imagenes/santelmo.png);
     border-radius: 14px;
     width: 333px;
     height: 385px;
@@ -271,7 +282,7 @@
 }
 
 .caja-ateneo {
-    background-image: url(/imagenes/imagen\ ateneo.png);
+    background-image: url(../imagenes/imagen\ ateneo.png);
     border-radius: 14px;
     width: 333px;
     height: 385px;
@@ -398,6 +409,7 @@ label {
     color: white;
     border: none;
     cursor: pointer;
+    text-align: right;
 }
 
 .img-1 {
