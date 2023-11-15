@@ -75,12 +75,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #000000;
 }
 
 .divisor-home {
     display: flex;
     flex-direction: row;
+    margin-top: 300px;
+    margin-left: 70px;
 }
 
 .h1inicio {
@@ -163,16 +164,31 @@
 
 .personas {
     display: flex;
+    gap: 37px;
 }
 
 .hora {
     display: flex;
+    gap: 37px;
 }
 
 .idioma {
     display: flex;
+    gap: 37px;
 }
 
+.info-gratis {
+    gap: 100px;
+    display: block;
+}
+
+.divisor-infortour {
+    display: flex;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -203,7 +219,6 @@
 
 .activ-h1 {
     display: inline-block;
-
 }
 
 .actividades {
@@ -218,7 +233,6 @@
     align-items: flex-start;
     gap: 19px;
     display: flex;
-
 }
 
 .actividades .rsrbtn button {
@@ -264,6 +278,12 @@
     color: white;
 }
 
+.texto-actividades {
+    margin-left: 10px;
+    margin-top: 90%;
+    padding: 5px;
+}
+
 /*CONTACTO*/
 
 .contacto-page {
@@ -272,7 +292,7 @@
 
 .container {
     display: flex;
-    height: 750px;
+    height: 700px;
     width: 1000px;
 }
 
@@ -281,7 +301,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-
+    margin-left: 200px;
 }
 
 .form h1 {
@@ -302,6 +322,18 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    height: 200px;
+}
+
+.h1-pcontacto {
+    display: block;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.h1-form {
+    display: block;
 }
 
 label {
@@ -366,6 +398,10 @@ label {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.img-1 {
+    height: 800px;
 }
 
 /*FOOTER*/
